@@ -10,16 +10,6 @@ body{
     background-color: white;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 50%;
-}
 img[src="images/youtube-logo.png"]{
 height: 70px;
 }
@@ -49,7 +39,7 @@ button:hover{
     height: 34px;
     width: 70px;
     margin-left: -4px;
-    border:1px solid black;
+    border:1px solid lightgray;
     
 }
 .search-icon:hover{
@@ -58,7 +48,9 @@ button:hover{
 
 .search-input{
     width: 500px;
-    height: 25px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-right: none;
 }
 .fa-upload{
     font-size: 25px;
@@ -82,6 +74,7 @@ main{
     margin-bottom:20px;
 }
 
+/*This is the style dividing the grids*/
 .container{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -90,9 +83,21 @@ main{
     grid-column-gap: 10px;
 }
 
+/*This is the left grid styles*/
 .left-section{
     display: flex;
     flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50%;
 }
 
 .video-section{
@@ -154,8 +159,12 @@ main{
 
 .subscribe p{
     align-self: center;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid lightgray;
+    height: 32px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar-img{
@@ -194,6 +203,7 @@ main{
 .show-more{
     margin-top: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 .comment-section{
@@ -208,6 +218,7 @@ main{
     background-color: red;
 }
 
+/*This is the footer styles*/
 footer{
     background-color: white;
     padding: 10px;
@@ -233,6 +244,7 @@ footer{
 .footer-flex1 h4{
     margin-top: 10px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .footer-flex2{
@@ -244,4 +256,5 @@ footer{
 .footer-flex2 h5{
     margin-top: 10px;
     margin-left: 10px;
+    cursor: pointer;
 }
