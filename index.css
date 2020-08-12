@@ -1,8 +1,55 @@
-header{
-    background-color: blue;
-    height: 60px;
+.nav{
+   
+    height: 2%;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50%;
+
+}
+.logo-img{
+height: 70px;
+}
+.search-icon{
+    height: 34px;
+    width: 70px;
+    margin-left: -5px;
+    
+}
+.search-icon:hover{
+    cursor: pointer;
 }
 
+.search-input{
+    width: 500px;
+    height: 25px;
+    
+    
+}
+.fa-upload{
+    font-size: 25px;
+}
+.upload:hover{
+    cursor: pointer;
+}
+.sign-in-form{
+    background-color: blue;
+    color: white;
+    height: 34px;
+    width: 70px;
+    border-radius: 5px;
+
+}
+.sign-in-form:hover{
+    cursor: pointer;
+}
 main{
     margin-top:20px;
     margin-bottom:20px;
