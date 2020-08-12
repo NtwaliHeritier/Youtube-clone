@@ -231,7 +231,7 @@ footer{
 }
 
 .footer-content button{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     height: 30px;
     margin-left: 10px;
 }
