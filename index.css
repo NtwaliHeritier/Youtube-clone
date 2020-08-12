@@ -19,9 +19,8 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     height: 50%;
-
 }
-.logo-img{
+img[src="images/youtube-logo.png"]{
 height: 70px;
 }
 .logo {
@@ -60,8 +59,6 @@ button:hover{
 .search-input{
     width: 500px;
     height: 25px;
-    
-    
 }
 .fa-upload{
     font-size: 25px;
@@ -199,8 +196,6 @@ main{
     text-align: center;
 }
 
-
-
 .comment-section{
     background-color: white;
     height: 150px;
@@ -214,5 +209,39 @@ main{
 }
 
 footer{
-    background-color: yellow;
+    background-color: white;
+    padding: 10px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.footer-content button{
+    border: 1px solid black;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer-flex1{
+    display: flex;
+    margin-left: 15px;
+}
+
+.footer-flex1 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer-flex2{
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-flex2 h5{
+    margin-top: 10px;
+    margin-left: 10px;
 }
