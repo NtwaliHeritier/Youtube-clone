@@ -82,19 +82,26 @@ main{
 }
 
 .videoname-section{
-    background-color: purple;
+    background-color:white;
     margin-bottom: 5px;
 }
 
 .title{
     margin-left: 15px;
     font-weight: lighter;
+    margin-top: 10px;
 }
 
 .view-flex{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.views{
+    align-self: flex-end;
+    margin-right: 15px;
 }
 
 .odin-flex{
@@ -106,11 +113,49 @@ main{
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscribe h3{
+    font-weight: lighter;
+}
+
+.subscribe button{
+    background-color: red;
+    color: white;
+    height: 34px;
+}
+
+.subscribe form{
+    margin-top: 5px;
+    display: flex;
+}
+
+.subscribe p{
+    align-self: center;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 .avatar-img{
     height: 50px;
     width: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.buttons button{
+    background-color: white;
+    border: none;
+}
+
+.buttons button:hover{
+    cursor: pointer;
 }
 
 .description-section{
