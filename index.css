@@ -1,8 +1,15 @@
-.nav{
-   
-    height: 2%;
-    
+*{
+    margin: 0;
 }
+
+body{
+    background-color: #D3D3D3;
+}
+
+.nav{
+    background-color: white;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -69,13 +76,41 @@ main{
 }
 
 .video-section{
-    background-color: pink;
     margin-bottom: 5px;
+    width: 100%;
+    height:100%;
 }
 
 .videoname-section{
     background-color: purple;
     margin-bottom: 5px;
+}
+
+.title{
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.view-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.odin-flex{
+    margin-left: 15px;
+    display: flex;
+}
+
+.subscribe{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-img{
+    height: 50px;
+    width: 50px;
 }
 
 .description-section{
