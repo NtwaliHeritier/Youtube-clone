@@ -24,10 +24,33 @@ body{
 .logo-img{
 height: 70px;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+button{
+    
+    border: none;
+}
+input[type="submit"]{
+    
+    border: none;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
 .search-icon{
     height: 34px;
     width: 70px;
-    margin-left: -5px;
+    margin-left: -4px;
+    border:1px solid black;
     
 }
 .search-icon:hover{
@@ -76,14 +99,14 @@ main{
 }
 
 .video-section{
-    margin-bottom: 5px;
-    width: 100%;
-    height:100%;
+    margin-bottom: 10px;
+    height: 500px;
 }
 
 .videoname-section{
     background-color:white;
     margin-bottom: 5px;
+    padding: 10px;
 }
 
 .title{
@@ -124,6 +147,7 @@ main{
     background-color: red;
     color: white;
     height: 34px;
+    
 }
 
 .subscribe form{
@@ -159,12 +183,30 @@ main{
 }
 
 .description-section{
-    background-color: orange;
+    background-color:white;
     margin-bottom: 5px;
+    padding: 10px;
+}
+.description-section p{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.description-section h4{
+    margin-left: 15px;
+}
+.show-more{
+    margin-top: 5px;
+    text-align: center;
 }
 
+
+
 .comment-section{
-    background-color: aqua;
+    background-color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-section{
