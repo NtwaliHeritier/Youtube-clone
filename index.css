@@ -213,9 +213,49 @@ main{
     justify-content: center;
     align-items: center;
 }
-
+/*start of the right section*/
 .right-section{
-    background-color: red;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px;
+}
+.autoplay p{
+    display: inline;
+    margin-right: 5px;
+}
+.autoplay i {
+    margin-right: 5px;
+}
+
+.autoplay i:hover{
+    cursor: pointer;
+}
+.thumbnails{
+    display: flex;
+    padding:10px;
+}
+.thumbnails:hover{
+    cursor: pointer;
+}
+.name-of-video{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+    
+}
+.name-of-video h4{
+    margin-bottom: 10px;
+}
+
+.name-of-video h5{
+    font-weight: lighter;
 }
 
 /*This is the footer styles*/
