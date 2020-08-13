@@ -105,6 +105,11 @@ main{
     height: 500px;
 }
 
+iframe{
+    width: 99.6%;
+     height: 100%; 
+}
+
 .videoname-section{
     background-color:white;
     margin-bottom: 5px;
