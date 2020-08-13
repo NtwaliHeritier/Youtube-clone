@@ -2,12 +2,12 @@
     margin: 0;
 }
 
-body{
-    background-color: #D3D3D3;
+.white{
+    background-color: white;
 }
 
-.nav{
-    background-color: white;
+body{
+    background-color: #D3D3D3;
 }
 
 img[src="images/youtube-logo.png"]{
@@ -111,7 +111,6 @@ iframe{
 }
 
 .videoname-section{
-    background-color:white;
     margin-bottom: 5px;
     padding: 10px;
 }
@@ -194,7 +193,6 @@ iframe{
 }
 
 .description-section{
-    background-color:white;
     margin-bottom: 5px;
     padding: 10px;
 }
@@ -212,7 +210,6 @@ iframe{
 }
 
 .comment-section{
-    background-color: white;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -220,7 +217,6 @@ iframe{
 }
 /*start of the right section*/
 .right-section{
-    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -265,7 +261,6 @@ iframe{
 
 /*This is the footer styles*/
 footer{
-    background-color: white;
     padding: 10px;
 }
 
