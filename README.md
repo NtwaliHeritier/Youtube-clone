@@ -6,6 +6,8 @@ This is a simple youtube clone
 
 Additional description about the project and its features.
 
+![screenshot](./app_screenshot.PNG)
+
 ## Built With
  
  - HTML
@@ -17,13 +19,13 @@ Additional description about the project and its features.
 
 - Github: [@githubhandle](https://github.com/NtwaliHeritier)
 - Twitter: [@twitterhandle](https://twitter.com/NtwaliHeritier)
-- Linkedin: [linkedin](https://linkedin.com/ntwali-heritier-9950001a2)
+- Linkedin: [linkedin](https://linkedin.com/in/ntwali-heritier-9950001a2)
 
 👤 **Author2**
 
 - Github: [@githubhandle](https://github.com/Nkuria)
 - Twitter: [@twitterhandle](https://twitter.com/Nkuria3)
-- Linkedin: [linkedin](https://linkedin.com/nick-kuria-a148931a9)
+- Linkedin: [linkedin](https://linkedin.com/in/nick-kuria-a148931a9)
 
 ## 🤝 Contributing
 
