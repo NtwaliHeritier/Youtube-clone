@@ -52,9 +52,21 @@ button:hover{
     border: 1px solid lightgray;
     border-right: none;
 }
-.fa-upload{
-    font-size: 25px;
+
+.nav-logos{
+    display: flex;
+    align-items: center;
 }
+
+.nav-logos img{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-logos img:hover{
+    cursor: pointer;
+}
+
 .upload:hover{
     cursor: pointer;
 }
@@ -64,8 +76,12 @@ button:hover{
     height: 34px;
     width: 70px;
     border-radius: 5px;
-
 }
+
+.coloring{
+    background-color: red;
+}
+
 .sign-in-form:hover{
     cursor: pointer;
 }
@@ -169,6 +185,11 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img[src="images/upload.png"]{
+    height: 35px;
+    width: 50px;
 }
 
 .avatar-img{
