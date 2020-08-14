@@ -27,6 +27,10 @@ Additional description about the project and its features.
 - Twitter: [@twitterhandle](https://twitter.com/Nkuria3)
 - Linkedin: [linkedin](https://linkedin.com/in/nick-kuria-a148931a9)
 
+## Live link
+
+https://raw.githack.com/NtwaliHeritier/Youtube-clone/master/index.html
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
