@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+}
+
+.white{
+    background-color: white;
+}
+
+body{
+    background-color: #D3D3D3;
+}
+
+img[src="images/youtube-logo.png"]{
+height: 70px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+button{
+    
+    border: none;
+}
+input[type="submit"]{
+    
+    border: none;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.search-icon{
+    height: 34px;
+    width: 70px;
+    margin-left: -4px;
+    border:1px solid lightgray;
+    
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.search-input{
+    width: 500px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-right: none;
+}
+
+.nav-logos{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logos img{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-logos img:hover{
+    cursor: pointer;
+}
+
+.upload:hover{
+    cursor: pointer;
+}
+.sign-in-form{
+    background-color: blue;
+    color: white;
+    height: 34px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.coloring{
+    background-color: red;
+}
+
+.sign-in-form:hover{
+    cursor: pointer;
+}
+main{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/*This is the style dividing the grids*/
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+}
+
+/*This is the left grid styles*/
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+.video-section{
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+iframe{
+    width: 99.6%;
+     height: 100%; 
+}
+
+.videoname-section{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.title{
+    margin-left: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.view-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.views{
+    align-self: flex-end;
+    margin-right: 15px;
+}
+
+.odin-flex{
+    margin-left: 15px;
+    display: flex;
+}
+
+.subscribe{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscribe h3{
+    font-weight: lighter;
+}
+
+.subscribe button{
+    background-color: red;
+    color: white;
+    height: 34px;
+    
+}
+
+.subscribe form{
+    margin-top: 5px;
+    display: flex;
+}
+
+.subscribe p{
+    align-self: center;
+    border: 1px solid lightgray;
+    height: 32px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[src="images/upload.png"]{
+    height: 35px;
+    width: 50px;
+}
+
+.avatar-img{
+    height: 50px;
+    width: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.buttons button{
+    background-color: white;
+    border: none;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+}
+
+.description-section{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.description-section p{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.description-section h4{
+    margin-left: 15px;
+}
+.show-more{
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.comment-section{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*start of the right section*/
+.right-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px;
+}
+.autoplay p{
+    display: inline;
+    margin-right: 5px;
+}
+.autoplay i {
+    margin-right: 5px;
+}
+
+.autoplay i:hover{
+    cursor: pointer;
+}
+.thumbnails{
+    display: flex;
+    padding:10px;
+}
+.thumbnails:hover{
+    cursor: pointer;
+}
+.name-of-video{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+    
+}
+.name-of-video h4{
+    margin-bottom: 10px;
+}
+
+.name-of-video h5{
+    font-weight: lighter;
+}
+
+/*This is the footer styles*/
+footer{
+    padding: 10px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.footer-content button{
+    border: 1px solid lightgray;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer-flex1{
+    display: flex;
+    margin-left: 15px;
+}
+
+.footer-flex1 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-flex2{
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-flex2 h5{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
