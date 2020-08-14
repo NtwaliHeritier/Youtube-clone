@@ -15,13 +15,13 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **NTWALI Heritier**
 
 - Github: [@githubhandle](https://github.com/NtwaliHeritier)
 - Twitter: [@twitterhandle](https://twitter.com/NtwaliHeritier)
 - Linkedin: [linkedin](https://linkedin.com/in/ntwali-heritier-9950001a2)
 
-👤 **Author2**
+👤 **NICK Kuria**
 
 - Github: [@githubhandle](https://github.com/Nkuria)
 - Twitter: [@twitterhandle](https://twitter.com/Nkuria3)
